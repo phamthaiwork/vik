@@ -12,7 +12,7 @@
 #header .navbar .navbar-nav .nav-link {
   font-size: 18px;
   font-weight: 600;
-  color: #1F2D40;
+  color: #17234e;
 }
 #header .content {
   position: absolute;
@@ -22,7 +22,7 @@
 }
 #header .content .list-app .list-app-item {
   text-decoration: none;
-  color: #1F2D40;
+  color: #17234e;
   opacity: 0.55;
   font-weight: 400;
   font-size: 14px;
@@ -37,7 +37,7 @@
   justify-content: center;
   height: 56px;
   width: 240px;
-  background-color: #0D4CA3;
+  background-color: #17234e;
   border-radius: 8px;
 }
 #header .content .content-right-text .button a {
@@ -57,7 +57,7 @@
   margin: 120px 0;
 }
 #future .title {
-  color: #1F2D40;
+  color: #17234e;
   margin-bottom: 64px;
 }
 #future .text :nth-child(1).text-content {
@@ -84,13 +84,13 @@
 #future .text .text-content .text-content-text .text-content-text-title {
   font-weight: 700;
   font-size: 22px;
-  color: #1F2D40;
+  color: #17234e;
   margin: 0 0 8px 0;
 }
 #future .text .text-content .text-content-text .text-content-text-desc {
   font-weight: 400;
   font-size: 14px;
-  color: #1F2D40;
+  color: #17234e;
   opacity: 0.55;
 }
 #future .image img {
@@ -102,7 +102,7 @@
   margin: 120px 0;
 }
 #services .title {
-  color: #1F2D40;
+  color: #17234e;
   margin-bottom: 64px;
 }
 #services .content .card {
@@ -122,11 +122,11 @@
   border-radius: 24px;
 }
 #services .content .card .card-body .card-title {
-  color: #1F2D40;
+  color: #17234e;
   padding: 40px 0 20px 0;
 }
 #services .content .card .card-body .card-text {
-  color: #1F2D40;
+  color: #17234e;
   opacity: 0.55;
 }
 
@@ -134,14 +134,14 @@
   margin: 120px 0;
 }
 #products .title {
-  color: #1F2D40;
+  color: #17234e;
   margin-bottom: 136px;
 }
 #products .content .content-section {
   margin-bottom: 100px;
 }
 #products .content :nth-child(odd).content-section {
-  background-image: linear-gradient(to right, #fff 30%, #0D4CA3 30%);
+  background-image: linear-gradient(to right, #fff 30%, #17234e 30%);
   color: #fff;
 }
 #products .content :nth-child(odd).content-section .content-text {
@@ -214,11 +214,11 @@
 }
 
 #footer {
-  background-color: #1F2D40;
+  background-color: #17234e;
   text-align: center;
 }
 #footer .social {
-  border-bottom: 1px #334050 solid;
+  border-bottom: 1px #17234e solid;
 }
 #footer .social a {
   margin: 0 14px;
@@ -242,12 +242,12 @@
     margin: 120px 0;
   }
   #products .title {
-    color: #1F2D40;
+    color: #17234e;
     margin-bottom: 136px;
   }
   #products .content :nth-child(odd).content-section {
     background-image: unset;
-    background-color: #0D4CA3;
+    background-color: #17234e;
     color: #fff;
     padding: 50px 0 0 0;
   }
@@ -286,7 +286,7 @@
   #header .navbar .navbar-nav .nav-link {
     font-size: 18px;
     font-weight: 600;
-    color: #1F2D40;
+    color: #17234e;
   }
   #header .content {
     position: absolute;
@@ -296,7 +296,7 @@
   }
   #header .content .list-app .list-app-item {
     text-decoration: none;
-    color: #1F2D40;
+    color: #17234e;
     opacity: 0.55;
     font-weight: 400;
     font-size: 14px;
@@ -311,7 +311,7 @@
     justify-content: center;
     height: 56px;
     width: 240px;
-    background-color: #0D4CA3;
+    background-color: #17234e;
     border-radius: 8px;
   }
   #header .content .content-right-text .button a {
