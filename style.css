@@ -48,6 +48,10 @@
 #brand {
   margin: 120px 0;
 }
+#brand img {
+  width: 65%;
+  height: 70%;
+}
 
 #future {
   margin: 120px 0;
