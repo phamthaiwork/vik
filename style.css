@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#header {
+  min-height: 570px;
+  position: relative;
+}
+#header .navbar {
+  z-index: 1;
+}
+#header .navbar .navbar-nav {
+  margin-left: 50% !important;
+}
+#header .navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1F2D40;
+}
+#header .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+#header .content .list-app .list-app-item {
+  text-decoration: none;
+  color: #1F2D40;
+  opacity: 0.55;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 16px;
+}
+#header .content .content-right-text h1 {
+  font-size: 64px;
+}
+#header .content .content-right-text .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 240px;
+  background-color: #0D4CA3;
+  border-radius: 8px;
+}
+#header .content .content-right-text .button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#brand {
+  margin: 120px 0;
+}
+
+#future {
+  margin: 120px 0;
+}
+#future .title {
+  color: #1F2D40;
+  margin-bottom: 64px;
+}
+#future .text :nth-child(1).text-content {
+  margin-left: 100px;
+}
+#future .text :nth-child(2).text-content {
+  margin-left: 50px;
+}
+#future .text :nth-child(3).text-content {
+  margin-bottom: 0;
+}
+#future .text .text-content {
+  margin: 43px 0;
+}
+#future .text .text-content .text-content-number {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 100px;
+  color: #0D4CA3;
+  opacity: 0.13;
+  width: 110px;
+  margin-right: 24px;
+}
+#future .text .text-content .text-content-text .text-content-text-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #1F2D40;
+  margin: 0 0 8px 0;
+}
+#future .text .text-content .text-content-text .text-content-text-desc {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1F2D40;
+  opacity: 0.55;
+}
+#future .image img {
+  width: 100%;
+  height: 100%;
+}
+
+#services {
+  margin: 120px 0;
+}
+#services .title {
+  color: #1F2D40;
+  margin-bottom: 64px;
+}
+#services .content .card {
+  border: unset;
+  background: #FDFDFD;
+  box-shadow: 0px 24px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  padding: 40px 0;
+  width: unset;
+}
+#services .content .card .card-image {
+  padding-top: 40px;
+}
+#services .content .card .card-image img {
+  background-color: #FAF1F6;
+  padding: 30px;
+  border-radius: 24px;
+}
+#services .content .card .card-body .card-title {
+  color: #1F2D40;
+  padding: 40px 0 20px 0;
+}
+#services .content .card .card-body .card-text {
+  color: #1F2D40;
+  opacity: 0.55;
+}
+
+#products {
+  margin: 120px 0;
+}
+#products .title {
+  color: #1F2D40;
+  margin-bottom: 136px;
+}
+#products .content .content-section {
+  margin-bottom: 100px;
+}
+#products .content :nth-child(odd).content-section {
+  background-image: linear-gradient(to right, #fff 30%, #0D4CA3 30%);
+  color: #fff;
+}
+#products .content :nth-child(odd).content-section .content-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 46px 0 36px 0;
+}
+#products .content :nth-child(odd).content-section .content-text > .content-text-title:first-child {
+  font-weight: 600;
+  font-size: 32px;
+}
+#products .content :nth-child(odd).content-section .content-text .content-text-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+#products .content :nth-child(odd).content-section .content-text .content-text-desc {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FDFDFD;
+  opacity: 0.55;
+  margin-right: 4px;
+  margin-bottom: 32px;
+}
+#products .content :nth-child(odd).content-section .content-image {
+  position: absolute;
+  top: -50px;
+}
+#products .content :nth-child(odd).content-section .content-image img {
+  width: 100%;
+  height: 100%;
+}
+#products .content :nth-child(even).content-section {
+  background-image: linear-gradient(to right, #F3F3F4 70%, #fff 70%);
+  color: #1F2D40;
+}
+#products .content :nth-child(even).content-section .content-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 46px 0 36px 0;
+}
+#products .content :nth-child(even).content-section .content-text > .content-text-title:first-child {
+  font-weight: 600;
+  font-size: 32px;
+}
+#products .content :nth-child(even).content-section .content-text .content-text-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+#products .content :nth-child(even).content-section .content-text .content-text-desc {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1F2D40;
+  opacity: 0.55;
+  margin-right: 4px;
+  margin-bottom: 32px;
+}
+#products .content :nth-child(even).content-section .content-image {
+  position: absolute;
+  top: -50px;
+}
+#products .content :nth-child(even).content-section .content-image img {
+  width: 100%;
+  height: 100%;
+}
+
+#footer {
+  background-color: #1F2D40;
+  text-align: center;
+}
+#footer .social {
+  border-bottom: 1px #334050 solid;
+}
+#footer .social a {
+  margin: 0 14px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 991px) {
+  #future .text :nth-child(1).text-content {
+    margin-left: unset;
+  }
+  #future .text :nth-child(2).text-content {
+    margin-left: 0;
+  }
+  #future .image {
+    margin-top: 50px;
+  }
+  #future .image img {
+    width: 100%;
+    height: 100%;
+  }
+  #products {
+    margin: 120px 0;
+  }
+  #products .title {
+    color: #1F2D40;
+    margin-bottom: 136px;
+  }
+  #products .content :nth-child(odd).content-section {
+    background-image: unset;
+    background-color: #0D4CA3;
+    color: #fff;
+    padding: 50px 0 0 0;
+  }
+  #products .content :nth-child(odd).content-section .content-image {
+    position: unset;
+  }
+  #products .content :nth-child(odd).content-section .content-image img {
+    width: 100%;
+    height: 100%;
+  }
+  #products .content :nth-child(even).content-section {
+    background-image: unset;
+    background-color: #F3F3F4;
+    color: #1F2D40;
+    padding: 50px 0 0 0;
+  }
+  #products .content :nth-child(even).content-section .content-image {
+    position: unset;
+  }
+  #products .content :nth-child(even).content-section .content-image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  #header {
+    min-height: 570px;
+    position: relative;
+  }
+  #header .navbar {
+    z-index: 1;
+  }
+  #header .navbar .navbar-nav {
+    margin-left: 50% !important;
+  }
+  #header .navbar .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1F2D40;
+  }
+  #header .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  #header .content .list-app .list-app-item {
+    text-decoration: none;
+    color: #1F2D40;
+    opacity: 0.55;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 16px;
+  }
+  #header .content .content-right-text h1 {
+    font-size: 64px;
+  }
+  #header .content .content-right-text .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 240px;
+    background-color: #0D4CA3;
+    border-radius: 8px;
+  }
+  #header .content .content-right-text .button a {
+    color: #fff;
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=style.css.map */
