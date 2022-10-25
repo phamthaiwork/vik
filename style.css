@@ -78,7 +78,7 @@
   line-height: 100px;
   color: #0D4CA3;
   opacity: 0.13;
-  width: 110px;
+  width: 90px;
   margin-right: 24px;
 }
 #future .text .text-content .text-content-text .text-content-text-title {
@@ -218,7 +218,7 @@
   text-align: center;
 }
 #footer .social {
-  border-bottom: 1px #17234e solid;
+  border-bottom: 1px #354253 solid;
 }
 #footer .social a {
   margin: 0 14px;
@@ -281,12 +281,13 @@
     z-index: 1;
   }
   #header .navbar .navbar-nav {
-    margin-left: 50% !important;
+    display: flex;
+    align-items: flex-end;
   }
   #header .navbar .navbar-nav .nav-link {
     font-size: 18px;
     font-weight: 600;
-    color: #17234e;
+    color: #fff;
   }
   #header .content {
     position: absolute;
@@ -294,28 +295,7 @@
     height: 100%;
     top: 0;
   }
-  #header .content .list-app .list-app-item {
-    text-decoration: none;
-    color: #17234e;
-    opacity: 0.55;
-    font-weight: 400;
-    font-size: 14px;
-    margin-right: 16px;
-  }
-  #header .content .content-right-text h1 {
-    font-size: 64px;
-  }
-  #header .content .content-right-text .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 56px;
-    width: 240px;
-    background-color: #17234e;
-    border-radius: 8px;
-  }
-  #header .content .content-right-text .button a {
-    color: #fff;
-    text-decoration: none;
+  #header .content .content-right-text {
+    display: none !important;
   }
 }/*# sourceMappingURL=style.css.map */
