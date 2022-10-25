@@ -49,8 +49,8 @@
   margin: 120px 0;
 }
 #brand img {
-  width: 65%;
-  height: 70%;
+  width: 55%;
+  height: 75%;
 }
 
 #future {
@@ -165,7 +165,7 @@
   font-size: 14px;
   color: #FDFDFD;
   opacity: 0.55;
-  margin-right: 4px;
+  margin-right: 20px;
   margin-bottom: 32px;
 }
 #products .content :nth-child(odd).content-section .content-image {
